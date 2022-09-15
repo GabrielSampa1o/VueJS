@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Vue.js</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+</head>
+
+<body>
+    <!-- condicionais-->
+    <div id="placar">
+        <div>{{ n }}</div>
+        <span v-if="n > 5">Parabéns, você passou de 5 pontos!</span>
+    </div>
+
+
+
+    <!-- loops -->
+    <div id="lista">
+        <ul>
+            <li v-for="info in nomes">
+                {{info.nome +" "+info.sobrenome+" "+info.idade+" anos"}}
+        </ul>
+        
+
+    </div>
+    <script src="script.js"> </script>
+</body>
+
+</html>
