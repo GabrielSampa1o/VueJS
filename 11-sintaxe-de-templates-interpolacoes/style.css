@@ -1,0 +1,30 @@
+.header {
+  background-color: #e9e9e9;
+  height: 100px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.container {
+  display: flex;
+  height: 400px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.container_content{
+  flex: 4;
+  background-color: #c7c3c3;
+}
+
+.container_sidebar{
+  flex: 1;
+  background-color: #8f8e8e;
+}
+
+.footer{
+  background-color: #e9e9e9;
+  height: 100px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
